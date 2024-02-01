@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+ 
+ 
+
+ 
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a class="site-name">DataDive</a>
+            <div class="topnav-right">
+                <a href="#home">Home</a>
+                <a href="#page1">Graphs</a>
+                <a href="#page2">Dashboard</a>
+                <a href="#page3">Explorer</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Bienvenue sur DataDive</h1>
+        <p>DataDive offre une manière unique de voir et d'interpréter les données de santé.</p>
+        <p>Explorez et visualisez les données sur la santé et le mode de vie comme jamais auparavant.</p>
+        <button class="get-started">Commencez à explorer</button>
+      </div>
+    
+      <div id="page1" style="height: 2050px;">
+        
+        <div class="centered-box">
+    
+        </div>
+
+        <div class="centered-box2">
+            
+        </div>
+
+        <div class="centered-box3">
+
+        </div>
+     
+        <div class="centered-box4">
+
+        </div>
+        <h1 id="text2">Interagissez avec les données !</h1>
+      </div>
+     
+      <div id="page2" style="height: 2050px;">
+       
+        <div class="centered-box5">
+
+        </div>
+        <div class="centered-box6">
+          <label for="time-range">Select Time Range:</label>
+          <input type="range" id="time-range" min="0" max="100" step="1" value="50">
+        </div>
+        <div class="centered-box6" id="line-chart-container"></div>
+    </div>
+      
+      <script src="chart.js"></script>
+      
+      <script>
+        document.querySelector('.get-started').addEventListener('click', function() {
+            document.querySelector('#page1').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+    
+</body>
+</html>

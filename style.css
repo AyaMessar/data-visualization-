@@ -1,0 +1,204 @@
+body {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position:  top 1000px;   
+    background-color: #E4AA8E;
+    background-size:100% 18% ;
+
+  }
+ 
+
+  body .site-name {
+    font-size: 38px !important;
+    color: #f0d6dc !important;
+}
+
+
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    margin: 100px auto;
+    margin-left: 50px ;
+  }
+  h1 {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 4em; /* Adjust this value to make the text bigger */
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+p {
+   color: white;
+   margin-left: 4px;
+   font-size: 17px;
+   font-family: 'Comic Sans MS', sans-serif;
+}
+a {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+  
+  .get-started {
+    background-color: #749e82; /* Green */
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 35px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: 'Comic Sans MS', sans-serif;
+    
+  }
+  .topnav {
+    background-color: transparent; 
+    overflow: hidden;
+    margin: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ebd6d3;
+    color: #76463a;
+    border-radius: 15px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Float the link section to the right */
+.topnav-right {
+    float: right;
+}
+
+/* Style the site name */
+.site-name {
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+    pointer-events: none ;
+    
+}
+.centered-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24%;
+  background-color: white;
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  margin-top: 20%; /* Adjust this value to move the box up or down */
+  margin-left: 50px;
+  border: none; /* Remove the border */
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.158); /* Add a shadow */
+  position: relative;
+}
+
+.centered-box svg {
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  left: 10px; /* Adjust left position as needed */
+  width: 80%; /* Adjust the width of the chart */
+  height: 100%; /* Adjust the height of the chart */
+}
+
+.centered-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24%;
+  background-color: white;
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  margin-top: -38%; /* Adjust this value to move the box up or down */
+  margin-left: 700px;
+  border: none; /* Remove the border */
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.158); /* Add a shadow */
+  position: relative;
+}
+
+
+.centered-box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24%;
+  background-color: white;
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  margin-top: 5%; /* Adjust this value to move the box up or down */
+  margin-left: 700px;
+  border: none; /* Remove the border */
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.158); /* Add a shadow */
+  position: relative;
+}
+.centered-box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24%;
+  background-color: white;
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  margin-top: -38%; /* Adjust this value to move the box up or down */
+  margin-left: 50px;
+  border: none; /* Remove the border */
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.158); /* Add a shadow */
+  position: relative;
+}
+
+.centered-box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  margin-top: -50%; /* Adjust this value to move the box up or down */
+  margin-left: 120px;
+  border: none; /* Remove the border */
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.158); /* Add a shadow */
+  position: relative;
+}
+
+#text2 {
+  /* Add your styles here */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+}
